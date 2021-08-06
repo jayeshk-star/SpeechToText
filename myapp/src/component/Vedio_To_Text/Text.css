@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Georgia, 'Times New Roman', Times, serif,
+    monospace;
+}
+
+.container {
+  margin: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+  box-shadow: -4px 10px 35px -1px rgba(0, 0, 0, 0.75);
+  height: 25rem;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(185, 132, 235);
+  
+}
+.box1 {
+  box-shadow: -4px 10px 35px -1px rgba(0, 0, 0, 0.75);
+  height: 26rem;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(185, 132, 235);
+  overflow-y: scroll;
+  /* position: fixed; */
+
+  
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+.btn_div>button {
+  float: right;
+  
+  padding: 10px;
+ 
+  border-radius: 5px;
+  background: black;
+  /* margin-right: 20%; */
+  color: #FFF;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-left: 60px;
+}
+.Caption{
+  padding-top: 5px;
+}
+.btn_div{
+  height: 50px;
+  width: 80%;
+  /* border: 1px solid red; */
+  margin-top: 16rem;
+  margin-left: 2%;
+}
